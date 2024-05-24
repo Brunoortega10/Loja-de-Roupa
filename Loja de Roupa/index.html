@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+<head>
+    <link rel="stylesheet" href="estilo.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja Virtual</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="vitrine-container">
+        <div class="categories-left">
+            <a href="">Categoria 1</a>
+            <a href="">Categoria 2</a>
+        </div>
+        <h2 class="vitrine-title">Vitrine</h2>
+        <div class="categories-right">
+            <a href="">Categoria 3</a>
+            <a href="">Categoria 4</a>
+        </div>
+
+        <div id="container-icon">
+
+            <img src="Lupa.jpg" alt="lupa">
+            <img src="user.png" alt="user">
+            <img src="carrinho.jpg" alt="Carrinho">
+
+    </div>
+    
+        <div id="carrinho-content"></div>
+    </div>
+    <div id="produtos">
+        <!-- Produto 1 -->
+        <div class="produto-single">
+            <div id="carouselProduto1" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselProduto1" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselProduto1" data-slide-to="1"></li>
+                    <li data-target="#carouselProduto1" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="Roupa.jpg" class="d-block w-100" alt="Produto 1">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="Roupa.jpg" class="d-block w-100" alt="Produto 1">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="Roupa.jpg" class="d-block w-100" alt="Produto 1">
+                    </div>
+                </div>
+                <a class="carousel-control-prev" id="carouselProduto1" href="#carouselProduto1" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" id="carouselProduto1" href="#carouselProduto1" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+            <p>Produto 1</p>
+            <a href="#" key="0">Adicionar ao carrinho</a>
+        </div>
+
+        <!-- Produto 2 (usando as mesmas imagens para exemplo) -->
+        <div class="produto-single">
+            <div id="carouselProduto2" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselProduto2" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselProduto2" data-slide-to="1"></li>
+                    <li data-target="#carouselProduto2" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="Roupa.jpg" class="d-block w-100" alt="Produto 2">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="Roupa.jpg" class="d-block w-100" alt="Produto 2">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="Roupa.jpg" class="d-block w-100" alt="Produto 2">
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselProduto2" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselProduto2" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+            <p>Produto 2</p>
+            <a href="#" key="1">Adicionar ao carrinho</a>
+        </div>
+
+        <div class="produto-single">
+            <div id="carouselProduto3" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselProduto3" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselProduto3" data-slide-to="1"></li>
+                    <li data-target="#carouselProduto3" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="Roupa.jpg" class="d-block w-100" alt="Produto 3">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="Roupa.jpg" class="d-block w-100" alt="Produto 3">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="Roupa.jpg" class="d-block w-100" alt="Produto 3">
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselProduto3" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselProduto3" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+            <p>Produto 3</p>
+            <a href="#" key="2">Adicionar ao carrinho</a>
+        </div>
+    </div>
+
+    <script>
+        const items = [
+            {
+                id: 0,
+                nome: 'Produto 1',
+                img: 'Roupa.jpg',
+                quantidade: 0
+            },
+                
+            {
+                id: 1,
+                nome: 'Produto 2',
+                img: 'Roupa.jpg',
+                quantidade: 0
+            },
+
+            {
+                id: 2,
+                nome: 'Produto 3',
+                img: 'Roupa.jpg',
+                quantidade: 0
+            },
+        ]
+        document.addEventListener("DOMContentLoaded", function() {
+        var links = document.querySelectorAll('.produto-single a');
+
+        links.forEach(function(link) {
+            link.addEventListener("click", function(event) {
+                event.preventDefault();
+                let key = this.getAttribute('key');
+                items[key].quantidade++;
+                atualizarCarrinho();
+
+                // Feedback visual
+                this.textContent = 'Adicionado!';
+                this.style.backgroundColor = 'gray';
+                this.style.pointerEvents = 'none';
+
+                setTimeout(() => {
+                    this.textContent = 'Adicionar ao carrinho';
+                    this.style.backgroundColor = '#385898';
+                    this.style.pointerEvents = 'auto';
+                }, 2000);
+            });
+        });
+    });
+
+        atualizarCarrinho = () => {
+            var conteinerCarrinho = document.getElementById('carrinho-content');
+            conteinerCarrinho.innerHTML = '';
+            items.map((val) => {
+                if (val.quantidade > 0) {
+                    conteinerCarrinho.innerHTML += `
+                    <div class="container">
+                        <div class="info-single-checkout">
+                            <p style="float:left;">` + val.nome + `</p>
+                            <p style="float:right;">` + val.quantidade + `</p>
+                            <div style="clear:both;"></div>
+                            <hr>
+                        </div>
+                    </div>
+                    `;
+                }
+            });
+        };
+
+        var links = document.getElementsByTagName('a');
+
+        for (var i = 0; i < links.length; i++) {
+            links[i].addEventListener('click', function () {
+                let key = this.getAttribute('key');
+                if (key !== null) {
+                    items[key].quantidade++;
+                    atualizarCarrinho();
+                }
+                return false;
+            });
+        };
+
+        document.getElementById('carrinho').addEventListener('click', function () {
+            var carrinhoContent = document.getElementById('carrinho-content');
+            if (carrinhoContent.style.display === 'block') {
+                carrinhoContent.style.display = 'none';
+            } else {
+                carrinhoContent.style.display = 'block';
+            }
+        });
+    </script>
+</body>
+</html>
